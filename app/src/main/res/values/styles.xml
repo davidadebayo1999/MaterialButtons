@@ -6,6 +6,17 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    
+    <style name="RaisedButton" parent="Widget.AppCompat.Button.Colored">
+     <item name="backgroundTint">@color/colorRaisedButton</item>
+        <item name="android:textColor">@color/colorRaisedButtonText</item>
+    </style>
+
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="backgroundTint">@color/colorRaisedButton</item>
+        <item name="android:textColor">@color/colorFlatButtonText</item>
     </style>
 
 </resources>
